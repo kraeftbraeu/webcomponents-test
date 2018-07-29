@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./de.js"></script>
+    <script src="./en.js"></script>
+    <script src="./au-text.js"></script>
+
+    <body>
+        <header>a</header>
+        <nav>
+            <select name="language">
+                <option selected="selected">de</option>
+                <option>en</option>
+            </select>
+            <ul>
+                <li onclick="loadArticle('a.html');"><au-text name="nav_a"/></li>
+                <li onclick="loadArticle('b.html');"><au-text name="nav_b"/></li>
+            </ul>
+        </nav>
+        <article>c</article>
+        <footer>d</footer>
+    </body>
+</html>
